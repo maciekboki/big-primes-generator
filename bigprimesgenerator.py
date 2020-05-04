@@ -21,11 +21,11 @@ def generuj_liczbe_nieparzysta(n):
 def testPrime_rabinMiller(n):
     '''Implementacja testu pierwszości Millera-Rabina,
        dla liczb pierwszych 2 i 3 test od razu zwraca wartość True,
-       dla pozostałych jest wykonywany test zgodnie z zasadami testu:
+       dla pozostałych jest wykonywany test zgodnie z zasadami:
        https://pl.wikipedia.org/wiki/Test_Millera-Rabina
        Implementation of the Miller-Rabin primacy test,
        for primes 2 and 3, the test immediately returns True,
-       for the others, the test is carried out in accordance with the test rules:
+       for the others, the test is carried out in accordance with the rules:
        https://en.wikipedia.org/wiki/Miller–Rabin_primality_test
     '''
     if n == 3 or n == 2:
